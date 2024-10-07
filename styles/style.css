@@ -248,22 +248,17 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
   text-decoration: underline;
 }
 
-.search-form__label:has(:focus),
-.search-form__textfield:has(:focus-visible),
+.search-form__textfield:focus,
 .button:focus,
-.content__card-link:focus {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
+.content__card-link:focus
+{
   border: none;
 }
-
-
 
 .search-form__label:has(:focus-visible),
 .content__card-link:has(:focus-visible),
 .button:focus-visible {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline: 1px solid #fff;     
 }
 
 .search-form__textfield:active {
@@ -273,5 +268,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
 .content__card-link:active,
 .button:active {
   background-color: #545050;
-  outline: none;
+  outline: 1px solid #fff;
+  
 }
