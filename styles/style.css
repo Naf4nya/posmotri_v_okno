@@ -269,5 +269,5 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
 .button:active {
   background-color: #545050;
   outline: 1px solid #fff;
-  
+
 }
