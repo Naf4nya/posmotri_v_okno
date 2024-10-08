@@ -252,11 +252,11 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
 .button:focus,
 .content__card-link:focus
 {
-  border: none;
+  outline: none;
 }
 
 .search-form__label:has(:focus-visible),
-.content__card-link:has(:focus-visible),
+.content__card-link:focus-visible,
 .button:focus-visible {
   outline: 1px solid #fff;     
 }
